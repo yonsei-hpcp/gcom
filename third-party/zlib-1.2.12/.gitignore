@@ -1,0 +1,13 @@
+minigzip
+minigzip64
+minigzipsh
+example
+example64
+examplesh
+configure.log
+zlib.pc
+Makefile
+zconf.h
+include/
+lib/
+share/
