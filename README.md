@@ -13,12 +13,13 @@ This repository contains the source code based on [GCoM \[ISCA '22\]](https://do
 
 ## Dependencies
 
-gcc/g++ 8.4.0 or higher
+* Ubuntu packages
 ```
 $ sudo apt install xutils-dev bison zlib1g-dev flex libglu1-mesa-dev libssl-dev libxml2-dev libxml2-dev
 ```
+* gcc/g++ 8.4.0 or higher
 
-zlib & gzstream
+* zlib & gzstream
 ```bash
 third-party/zlib-1.2.12$ prefix=. ./configure
 third-party/zlib-1.2.12$ make test
@@ -28,7 +29,7 @@ third-party/gzstream$ make test
 third-party/gzstream$ make
 ```
 
-boost serialization
+* boost serialization library
 ```
 third-party/boost_1_86_0$ ./bootstrap.sh
 third-party/boost_1_86_0$ ./b2 --with-serialization
