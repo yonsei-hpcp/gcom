@@ -1,6 +1,6 @@
-# GCoM: An Analytical GPU Core Model for Modern GPUs
+# GCoM \[ISCA '22\]
 
-This repository contains the source code based on [GCoM \[ISCA '22\]](https://doi.org/10.1145/3470496.3527384), a detailed GPU core model for accurate analytical modeling of modern GPUs. Please cite the following paper if you utilize GCoM in your research.
+This repository contains the source code for [GCoM \[ISCA '22\]](https://doi.org/10.1145/3470496.3527384), a detailed GPU core model for accurate analytical modeling of modern GPUs. Please cite the following paper if you utilize GCoM in your research.
 
 ```bibtex
 @inproceedings{lee2022gcom,
